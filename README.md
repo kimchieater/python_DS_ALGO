@@ -131,3 +131,11 @@ Make a reasonable assumption, state it and move forward.
 
 We will assume that our function will return -1 in case cards does not contain query.
 
+3. come up witha correct solution for the problem.
+
+when you're solving a problem, you need to come up with a most efficient solution.
+the simplest or most obvious solution to a problem after checking all possible answers is called BRUTE FORCE SOLUTION
+
+solution for lesson 1-1 is simple
+bob turns over a card one by one, untill he finds the card.
+
