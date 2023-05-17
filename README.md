@@ -139,3 +139,19 @@ the simplest or most obvious solution to a problem after checking all possible a
 solution for lesson 1-1 is simple
 bob turns over a card one by one, untill he finds the card.
 
+create a variable position with value of 0
+check whether the number 
+
+Create a variable position with the value 0.
+Check whether the number at index position in card equals query.
+If it does, position is the answer and can be returned from the function
+If not, increment the value of position by 1, and repeat steps 2 to 5 till we reach the last position.
+If the number was not found, return -1.
+
+and this above is our first algorithm called Linear Search Algorithm
+linear search algorithm : searching through a list in a linear fashion.
+
+tip : always try to write and speak the algorithm, sometimes, you might not even understand what's going on, but by writing and speaking you'll be able to understand the problem, and may result in solving the problem.
+
+4. implement the solution and t est it using example inputs
+
