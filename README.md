@@ -44,3 +44,29 @@ inputs :
 output:
 3. position(index) of the specific number.
 
+lets now create a functinon
+def locate_card(cards, query):
+  pass
+
+
+tip: 
+name your function and variables clearly and descriptive.
+do not start coding without finishing step 1 clearly.
+
+2. come up with some example inputs and outputs
+
+coming up with text cases with all the edge cases will be helpful during your interview session
+
+ex1.
+
+cards = [13, 11, 10, 7, 4, 3, 1, 0]
+query = 7
+output = 3 
+
+result = locate_card(cards,query)
+print(result)
+
+result == output
+
+
+
