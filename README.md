@@ -27,3 +27,13 @@ Steps that you need to take :
 - apply the right technique to overcome the inefficiency.
 
 
+problem 1-1 Alice has some cards with numbers written on them. She arranges the cards in decreasing order, and lays them out face down in a sequence on a table. She challenges Bob to pick out the card containing a given number by turning over as few cards as possible. Write a function to help Bob locate the card.
+
+
+1. State the problem clearly. identify the input and output formats
+
+let's put sequence of cards as a list
+
+[ 13, 12, 11, 7, 4, 3, 1, 0]
+
+lets now 
