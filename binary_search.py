@@ -28,6 +28,7 @@ test = {
     },
     'output':3
 }
+
 tests = []
 tests.append(test)
 
@@ -89,4 +90,5 @@ tests.append({
     "output": 7
 })
 
-print(tests)
+result = locate_card(test['input']['cards'], test['input']['query'])
+print(result)
