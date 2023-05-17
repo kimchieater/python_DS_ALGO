@@ -36,4 +36,11 @@ let's put sequence of cards as a list
 
 [ 13, 12, 11, 7, 4, 3, 1, 0]
 
-lets now 
+lets now state the input and outputs: 
+inputs : 
+1. A list of numbers sorted in decreawsing order
+2. A number of the index of the specific number
+
+output:
+3. position(index) of the specific number.
+
