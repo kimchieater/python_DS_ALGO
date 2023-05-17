@@ -68,5 +68,7 @@ print(result)
 
 result == output
 
+we're going to represent test cases as dictionary
+
 
 
