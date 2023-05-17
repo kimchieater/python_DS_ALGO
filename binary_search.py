@@ -92,3 +92,4 @@ tests.append({
 
 result = locate_card(test['input']['cards'], test['input']['query'])
 print(result)
+print(result == test['output'])
