@@ -1,7 +1,22 @@
 #Problem 1 
 
 def locate_card(cards, query):
-    pass
+    #create a variable position with the value of 0
+    position = 0
+
+    #set up a loop for repetition
+    while True:
+        #check if element at the current position match the query
+        if cards[position] == query:
+            # card is found, return and exit
+            return position
+        #not found, move on to the next card
+        position += 1
+        
+        #if card does not exist then return -1
+        if position == len(cards):
+            return -1
+
 
 
 
