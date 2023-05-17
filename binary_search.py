@@ -5,6 +5,7 @@ def locate_card(cards, query):
 
 
 
+
 test = {
     'input': {
         'cards' : {13,11,10,7,4,3,1,0},
@@ -12,5 +13,13 @@ test = {
     },
     'output':3
 }
+tests = []
+tests.append(test)
 
-locate_card(**test['input']) == test['output']
+tests.append({
+    'input': {
+        'cards': [13,11,10,7,4,3,1,0],
+        'query': 1
+    },
+    'output': 6
+})
