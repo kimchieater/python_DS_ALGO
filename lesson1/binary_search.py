@@ -17,10 +17,6 @@ def locate_card(cards, query):
         if position == len(cards):
             return -1
 
-
-
-
-
 test = {
     'input': {
         'cards' : [13,11,10,7,4,3,1,0],
