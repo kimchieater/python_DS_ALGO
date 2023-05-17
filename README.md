@@ -155,3 +155,34 @@ tip : always try to write and speak the algorithm, sometimes, you might not even
 
 4. implement the solution and t est it using example inputs
 
+#Problem 1 
+
+def locate_card(cards, query):
+    #create a variable position with the value of 0
+    position = 0
+
+    #set up a loop for repetition
+    while True:
+        #check if element at the current position match the query
+        if cards[position] == query:
+            # card is found, return and exit
+            return position
+        #not found, move on to the next card
+        position += 1
+        
+        #if card does not exist then return -1
+        if position == len(cards):
+            return -1
+
+
+test = {
+    'input': {
+        'cards' : [13,11,10,7,4,3,1,0],
+        'query': 7
+    },
+    'output':3
+}
+result = locate_card(test['input']['cards'], test['input']['query'])
+print(result) #output is 3 
+print(result == test['output']) #output is True
+
