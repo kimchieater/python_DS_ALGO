@@ -80,3 +80,54 @@ test = {
 
 locate_card(**test['input']) == test['output']
 
+is this enough? probably not.
+
+lets state more options
+The number query occurs somewhere in the middle of the list cards.
+query is the first element in cards.
+query is the last element in cards.
+The list cards contains just one element, which is query.
+The list cards does not contain number query.
+The list cards is empty.
+The list cards contains repeating numbers.
+The number query occurs at more than one position in cards.
+(can you think of any more variations?)
+
+Edge cases : could be a scenario where its rare or extreme cases.
+
+tests.append({
+    'input':{
+        'cards': [4,2,1,-1],
+        'query': 1
+    },
+    'output':0
+})
+#query is the last element
+tests.append({
+    'input': {
+        'cards':[3, -1, -9, -127],
+        'query': -127
+    },
+    'output': 3
+})
+#cards just coins just one elelment, query
+tests.append({
+    'input': {
+        'cards':[6],
+        "query": 6
+    },
+    'output': 0
+})
+
+The problem statement does not specify what to do if the list cards does not contain the number query.
+
+Read the problem statement again, carefully.
+
+Look through the examples provided with the problem.
+
+Ask the interviewer/platform for a clarification.
+
+Make a reasonable assumption, state it and move forward.
+
+We will assume that our function will return -1 in case cards does not contain query.
+
