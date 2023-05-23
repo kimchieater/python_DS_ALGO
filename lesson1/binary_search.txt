@@ -1,0 +1,11 @@
+Binary search is pretty much when you know that the cards are all sorted in decreasing order,
+
+you first check the number of the card in the middle,
+
+then you check if the number that you have is the one in the middle. 
+
+if its not? then check if the value is greater or less 
+
+if the value is greater than middle start +1
+
+if the value is less than middle then do -1
