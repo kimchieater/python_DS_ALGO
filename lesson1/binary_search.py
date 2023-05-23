@@ -10,6 +10,8 @@ def test_location(cards, query, mid):
         return 'left'
     else:
         return 'right'
+    
+    
 def locate_card(cards, query):
     lo, hi = 0, len(cards)-1
 
